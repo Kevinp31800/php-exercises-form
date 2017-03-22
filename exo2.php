@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>formulaire</title>
+	<title>exo2</title>
 </head>
 <body>
-	<form action="user.php" method="get">
+	<form action="user.php" method="post">
 		<label for='name'>Nom</label>
 		<input type="text">
 		<label for="firstName">Prénom</label>
