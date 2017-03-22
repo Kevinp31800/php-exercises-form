@@ -27,6 +27,17 @@ else{
 	echo $_POST["civilit"];
 	echo $_POST["name"];
 	echo $_POST["firstName"];
+	echo $_POST["file"];
+	if(explode(".", $_POST["file"])[1]==="pdf"){
+
+		echo"GG c'est un pdf";
+
+	}
+	else{
+
+		echo "C'est pas un pdf";
+	}
+
 }
 ?>
 </body>
