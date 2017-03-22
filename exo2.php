@@ -7,14 +7,14 @@
 <body>
 	<form action="user.php" method="post">
 		<label for='name'>Nom</label>
-		<input type="text">
+		<input type="text" name="name">
 		<label for="firstName">Prénom</label>
-		<input type="text">
+		<input type="text" name="firstName">
 		<input type="submit" value="envoyer">
 	</form>
 	<?php 
-
-
+	echo $_POST["name"];
+	echo $_POST["firstName"];
 	?>
 </body>
 </html>
